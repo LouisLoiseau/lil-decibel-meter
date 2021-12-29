@@ -6,6 +6,7 @@ import Text from '../components/Text';
 import styles from './styles/HomeStyles';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Button from '../components/Button';
+import font from '../utils/font';
 
 function generateColorGradient(): Array<string> {
   let colorArray = [];
@@ -40,15 +41,15 @@ const audioRecorderPlayer = new AudioRecorderPlayer();
 
 export default function Home() {
   useEffect(() => {
-    AsyncStorage.getItem('readIntro')
-      .then(val => {
-        if (val !== null && val === 'true') {
-          setHasReadInstructions(true);
-        } else {
-          setHasReadInstructions(false);
-        }
-      })
-      .catch(console.log);
+    // AsyncStorage.getItem('readIntro')
+    //   .then(val => {
+    //     if (val !== null && val === 'true') {
+    //       setHasReadInstructions(true);
+    //     } else {
+    //       setHasReadInstructions(false);
+    //     }
+    //   })
+    //   .catch(console.log);
     return () => {
       audioRecorderPlayer.removeRecordBackListener();
     };
@@ -56,7 +57,8 @@ export default function Home() {
   const [decibels, setDecibels] = useState<string>('');
   const [gaugeItems, setGaugeItems] = useState<Array<number>>([]);
   const [mode, setMode] = useState<'record' | 'idle'>('idle');
-  const [hasReadInstructions, setHasReadInstructions] = useState<boolean>(true);
+  const [hasReadInstructions, setHasReadInstructions] =
+    useState<boolean>(false);
   function onRecordPress() {
     audioRecorderPlayer
       .startRecorder(undefined, undefined, true)
@@ -92,13 +94,11 @@ export default function Home() {
           </View>
         )}
         {mode === 'record' && [
-          <View
-            onLayout={ev => console.log(ev.nativeEvent.layout.width)}
-            style={styles.container}>
+          <View style={styles.container}>
             <Text style={styles.appTitle}>Decibel Meter</Text>
             <Text style={styles.gaugeDescription}>
               The gauge below shows how much decibels your microphone is
-              detecting. {'\n'}The scale is from -5O to 50 decibels (which is
+              detecting. {'\n'}The scale is from -50 to 50 decibels (which is
               quite hard to reach).
             </Text>
           </View>,

@@ -51,27 +51,27 @@ export default StyleSheet.create({
   modalTitle: {
     textAlign: 'center',
     fontSize: 34,
-    fontFamily: 'ProximaSoft-Bold',
+    fontFamily: font('proxima', 'bold'),
   },
 
   modalQuestion: {
-    fontFamily: 'ProximaSoft-SemiBold',
+    fontFamily: font('proxima', 'semibold'),
     marginTop: 12,
     fontSize: 16,
   },
 
   modalRecordText: {
-    fontFamily: 'ProximaSoft-Bold',
+    fontFamily: font('proxima', 'bold'),
     color: 'crimson',
   },
 
   modalDecibelText: {
-    fontFamily: 'ProximaSoft-Bold',
+    fontFamily: font('proxima', 'bold'),
     color: 'limegreen',
   },
 
   modalDisclaimer: {
-    fontFamily: 'ProximaSoft-Medium',
+    fontFamily: font('proxima', 'medium'),
     fontSize: 11,
   },
 
@@ -83,8 +83,8 @@ export default StyleSheet.create({
   },
 
   appTitle: {
-    fontSize: 34,
-    fontFamily: 'ProximaSoft-Bold',
+    fontSize: 44,
+    fontFamily: font('proxima', 'bold'),
     textAlign: 'center',
   },
 
@@ -93,6 +93,7 @@ export default StyleSheet.create({
     marginTop: 5,
     textAlign: 'left',
     width: '100%',
+    fontSize: 16,
   },
 
   scaleContainer: {

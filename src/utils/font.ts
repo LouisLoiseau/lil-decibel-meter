@@ -21,7 +21,15 @@ const fontStyleMapping: Mapping = {
 };
 
 function toFontVariant(name: string) {
-  return name.charAt(0).toUpperCase() + name.substring(1, name.length);
+  return Platform.select({
+    ios: name.split('-')
+      ? name
+          .split('-')
+          .map(x => x.charAt(0).toUpperCase() + x.substring(1, x.length))
+          .join('')
+      : name.charAt(0) + name.substring(1, name.length),
+    android: name,
+  });
 }
 
 export default function font(
