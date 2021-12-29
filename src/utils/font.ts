@@ -1,3 +1,5 @@
+import { Platform } from 'react-native';
+
 const defaultFontName = 'ProximaSoft',
   defaultFontVariant = 'Regular';
 
@@ -6,7 +8,11 @@ type Mapping = {
 };
 
 const fontNameMapping: Mapping = {
-  proxima: 'Proxima',
+  proxima: Platform.select({
+    android: 'proximasoft',
+    ios: 'ProximaSoft',
+    default: 'ProximaSoft',
+  }),
 };
 
 const fontStyleMapping: Mapping = {
@@ -15,9 +21,7 @@ const fontStyleMapping: Mapping = {
 };
 
 function toFontVariant(name: string) {
-  return name.split('-')
-    ? name.split('-').map(x => x.charAt(0).toUpperCase())
-    : name.charAt(0).toUpperCase();
+  return name.charAt(0).toUpperCase() + name.substring(1, name.length);
 }
 
 export default function font(
@@ -25,7 +29,8 @@ export default function font(
   variant: string = defaultFontVariant,
   style: string = '',
 ) {
-  return `${fontNameMapping[name]}-${toFontVariant(variant)}${
-    fontStyleMapping[style]
-  }`;
+  return `${fontNameMapping[name]}${Platform.select({
+    ios: '-',
+    android: '_',
+  })}${toFontVariant(variant)}${fontStyleMapping[style]}`;
 }

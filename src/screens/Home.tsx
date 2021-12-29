@@ -1,13 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {
-  Modal,
-  Pressable,
-  SafeAreaView,
-  TouchableOpacity,
-  TouchableOpacityBase,
-  useWindowDimensions,
-  View,
-} from 'react-native';
+import { Modal, SafeAreaView, View } from 'react-native';
 import AudioRecorderPlayer from 'react-native-audio-recorder-player';
 import GaugeItem from '../components/GaugeItem';
 import Text from '../components/Text';
@@ -45,6 +37,7 @@ function getDegrees(
 const degrees = getDegrees();
 const colors = generateColorGradient();
 const audioRecorderPlayer = new AudioRecorderPlayer();
+
 export default function Home() {
   useEffect(() => {
     AsyncStorage.getItem('readIntro')
@@ -55,12 +48,12 @@ export default function Home() {
           setHasReadInstructions(false);
         }
       })
-      .catch(err => {});
+      .catch(console.log);
     return () => {
       audioRecorderPlayer.removeRecordBackListener();
     };
   }, []);
-  const [decibels, setDecibels] = useState<number>(0);
+  const [decibels, setDecibels] = useState<string>('');
   const [gaugeItems, setGaugeItems] = useState<Array<number>>([]);
   const [mode, setMode] = useState<'record' | 'idle'>('idle');
   const [hasReadInstructions, setHasReadInstructions] = useState<boolean>(true);
@@ -73,10 +66,13 @@ export default function Home() {
       .catch(err => {
         console.log(err);
       });
-    audioRecorderPlayer.setSubscriptionDuration(0.1);
+    audioRecorderPlayer.setSubscriptionDuration(0.2);
     audioRecorderPlayer.addRecordBackListener(ev => {
-      if (ev.currentMetering !== undefined && ev.currentMetering !== decibels) {
-        setDecibels(ev.currentMetering);
+      if (
+        ev.currentMetering !== undefined &&
+        parseInt(ev.currentMetering.toFixed(2), 10) !== parseInt(decibels, 10)
+      ) {
+        setDecibels(ev.currentMetering.toFixed(2));
         let items = [];
         for (let i = 0; i < degrees.length; i++) {
           if (ev.currentMetering >= degrees[i]) {
@@ -88,24 +84,33 @@ export default function Home() {
     });
   }
   return [
-    <SafeAreaView style={styles.safeView}>
-      {mode === 'idle' && (
-        <View style={styles.centeredView}>
-          <Button onPress={onRecordPress} title={'Record'} />
-        </View>
-      )}
-      {mode === 'record' && [
-        <View>
-          <Text style={styles.appTitle}>Demibel Ceter</Text>
-          <Text style={styles.gaugeDescription}>
-            The gauge show the power of the sound around you.
-          </Text>
-        </View>,
-        <View style={styles.gaugeContainer}>
-          <View style={styles.gauge}>
-            {gaugeItems.map((item, index) => (
-              <GaugeItem color={colors[index]} />
-            ))}
+    <SafeAreaView style={styles.safeView} key={'safe-area'}>
+      <View style={styles.main}>
+        {mode === 'idle' && (
+          <View style={styles.centeredView}>
+            <Button onPress={onRecordPress} title={'Record'} />
+          </View>
+        )}
+        {mode === 'record' && [
+          <View
+            onLayout={ev => console.log(ev.nativeEvent.layout.width)}
+            style={styles.container}>
+            <Text style={styles.appTitle}>Decibel Meter</Text>
+            <Text style={styles.gaugeDescription}>
+              The gauge below shows how much decibels your microphone is
+              detecting. {'\n'}The scale is from -5O to 50 decibels (which is
+              quite hard to reach).
+            </Text>
+          </View>,
+          <View style={styles.gaugeContainer}>
+            <View style={styles.decibelsContainer}>
+              <Text style={styles.decibelsText}>{decibels} dB</Text>
+            </View>
+            <View style={styles.gauge}>
+              {gaugeItems.map((item, index) => (
+                <GaugeItem color={colors[index]} />
+              ))}
+            </View>
             <View style={styles.scaleContainer}>
               <Text style={styles.scaleText}>
                 {degrees[degrees.length - 1]}
@@ -115,12 +120,12 @@ export default function Home() {
               </Text>
               <Text style={styles.scaleText}>{degrees[0]}</Text>
             </View>
-          </View>
-        </View>,
-        <Text>{decibels}</Text>,
-      ]}
+          </View>,
+        ]}
+      </View>
     </SafeAreaView>,
     <Modal
+      key={'intro-modal'}
       visible={!hasReadInstructions}
       style={styles.modalContainer}
       animationType={'slide'}
