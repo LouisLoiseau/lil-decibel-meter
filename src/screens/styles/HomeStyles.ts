@@ -1,10 +1,9 @@
 import { Dimensions, StyleSheet } from 'react-native';
-import font from '../../utils/font';
 
 const { width, height } = Dimensions.get('window');
 export default StyleSheet.create({
   safeView: {
-    backgroundColor: '#171717',
+    backgroundColor: '#E6E6FA',
     width,
     height,
   },
@@ -21,7 +20,7 @@ export default StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 75,
+    marginTop: 50,
   },
 
   gauge: {
@@ -51,28 +50,25 @@ export default StyleSheet.create({
   modalTitle: {
     textAlign: 'center',
     fontSize: 34,
-    fontFamily: font('proxima', 'bold'),
   },
 
   modalQuestion: {
-    fontFamily: font('proxima', 'semibold'),
     marginTop: 12,
     fontSize: 16,
   },
 
   modalRecordText: {
-    fontFamily: font('proxima', 'bold'),
     color: 'crimson',
   },
 
   modalDecibelText: {
-    fontFamily: font('proxima', 'bold'),
     color: 'limegreen',
   },
 
   modalDisclaimer: {
-    fontFamily: font('proxima', 'medium'),
     fontSize: 11,
+    marginTop: 10,
+    textDecorationLine: 'underline',
   },
 
   centeredView: {
@@ -84,12 +80,10 @@ export default StyleSheet.create({
 
   appTitle: {
     fontSize: 44,
-    fontFamily: font('proxima', 'bold'),
     textAlign: 'center',
   },
 
   gaugeDescription: {
-    fontFamily: font('proxima', 'medium'),
     marginTop: 5,
     textAlign: 'left',
     width: '100%',
@@ -106,7 +100,6 @@ export default StyleSheet.create({
 
   scaleText: {
     color: 'gray',
-    fontFamily: font('proxima', 'medium'),
   },
 
   decibelsContainer: {
@@ -119,7 +112,6 @@ export default StyleSheet.create({
 
   decibelsText: {
     color: '#fff',
-    fontFamily: font('proxima', 'bold'),
   },
 
   container: {

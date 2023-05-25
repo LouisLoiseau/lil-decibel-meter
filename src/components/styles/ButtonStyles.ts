@@ -1,5 +1,4 @@
 import { Dimensions, StyleSheet } from 'react-native';
-import font from '../../utils/font';
 
 const { width } = Dimensions.get('window');
 export default StyleSheet.create({
@@ -25,6 +24,5 @@ export default StyleSheet.create({
 
   buttonText: {
     color: '#000',
-    fontFamily: font('proxima', 'medium'),
   },
 });

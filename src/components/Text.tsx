@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleProp, Text as RNText, TextStyle } from 'react-native';
-import font from '../utils/font';
 
 interface Props {
   children?: React.ReactNode;
@@ -12,7 +11,6 @@ export default function Text({ children, style }: Props) {
     <RNText
       style={[
         {
-          fontFamily: font('proxima', 'medium'),
           color: '#fff',
         },
         style && style,
