@@ -8,28 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* DemibelCeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DemibelCeterTests.m */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-DemibelCeter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-DemibelCeter.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		6172F2D35A4C3AA820D92908 /* libPods-DemibelCeter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-DemibelCeter.a */; };
-		7EF68E3733C33B6898317E18 /* libPods-DemibelCeter-DemibelCeterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-DemibelCeter-DemibelCeterTests.a */; };
+		7699B88040F8A987B510C191 /* libPods-DemibelCeter-DemibelCeterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-DemibelCeter-DemibelCeterTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		BF07D578277A977B00A53B94 /* ProximaSoft-ExtraBoldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF07D56C277A977A00A53B94 /* ProximaSoft-ExtraBoldIt.ttf */; };
-		BF07D579277A977B00A53B94 /* ProximaSoft-LightIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF07D56D277A977B00A53B94 /* ProximaSoft-LightIt.ttf */; };
-		BF07D57A277A977B00A53B94 /* ProximaSoft-RegularIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF07D56E277A977B00A53B94 /* ProximaSoft-RegularIt.ttf */; };
-		BF07D57B277A977B00A53B94 /* ProximaSoft-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF07D56F277A977B00A53B94 /* ProximaSoft-Light.ttf */; };
-		BF07D57C277A977B00A53B94 /* ProximaSoft-SemiBoldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF07D570277A977B00A53B94 /* ProximaSoft-SemiBoldIt.ttf */; };
-		BF07D57D277A977B00A53B94 /* ProximaSoft-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF07D571277A977B00A53B94 /* ProximaSoft-Thin.ttf */; };
-		BF07D57E277A977B00A53B94 /* ProximaSoft-ThinIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF07D572277A977B00A53B94 /* ProximaSoft-ThinIt.ttf */; };
-		BF07D57F277A977B00A53B94 /* ProximaSoft-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF07D573277A977B00A53B94 /* ProximaSoft-ExtraBold.ttf */; };
-		BF07D580277A977B00A53B94 /* ProximaSoft-BoldIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF07D574277A977B00A53B94 /* ProximaSoft-BoldIt.ttf */; };
-		BF07D581277A977B00A53B94 /* ProximaSoft-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF07D575277A977B00A53B94 /* ProximaSoft-Black.ttf */; };
-		BF07D582277A977B00A53B94 /* ProximaSoft-BlackIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF07D576277A977B00A53B94 /* ProximaSoft-BlackIt.ttf */; };
-		BF07D583277A977B00A53B94 /* ProximaSoft-MediumIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF07D577277A977B00A53B94 /* ProximaSoft-MediumIt.ttf */; };
-		BF469F6827788CA1007AA638 /* ProximaSoft-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF469F6727788CA1007AA638 /* ProximaSoft-Regular.ttf */; };
-		BF469F6A2778923F007AA638 /* ProximaSoft-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF469F692778923F007AA638 /* ProximaSoft-Bold.ttf */; };
-		BF469F6C27789354007AA638 /* ProximaSoft-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF469F6B27789354007AA638 /* ProximaSoft-Medium.ttf */; };
-		BF469F6E27789375007AA638 /* ProximaSoft-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF469F6D27789375007AA638 /* ProximaSoft-SemiBold.ttf */; };
+		BFFAB4562A1F8846009282BA /* poppins_light_italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB4442A1F8844009282BA /* poppins_light_italic.ttf */; };
+		BFFAB4572A1F8846009282BA /* poppins_semibold_italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB4452A1F8844009282BA /* poppins_semibold_italic.ttf */; };
+		BFFAB4582A1F8846009282BA /* poppins_black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB4462A1F8844009282BA /* poppins_black.ttf */; };
+		BFFAB4592A1F8846009282BA /* poppins_extralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB4472A1F8844009282BA /* poppins_extralight.ttf */; };
+		BFFAB45A2A1F8846009282BA /* poppins_extrabold_italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB4482A1F8845009282BA /* poppins_extrabold_italic.ttf */; };
+		BFFAB45B2A1F8846009282BA /* poppins_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB4492A1F8845009282BA /* poppins_bold.ttf */; };
+		BFFAB45C2A1F8846009282BA /* poppins_bold_italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB44A2A1F8845009282BA /* poppins_bold_italic.ttf */; };
+		BFFAB45D2A1F8846009282BA /* poppins_extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB44B2A1F8845009282BA /* poppins_extrabold.ttf */; };
+		BFFAB45E2A1F8846009282BA /* poppins_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB44C2A1F8845009282BA /* poppins_light.ttf */; };
+		BFFAB45F2A1F8846009282BA /* poppins_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB44D2A1F8845009282BA /* poppins_medium.ttf */; };
+		BFFAB4602A1F8846009282BA /* poppins_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB44E2A1F8845009282BA /* poppins_regular.ttf */; };
+		BFFAB4612A1F8846009282BA /* poppins_thin_italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB44F2A1F8845009282BA /* poppins_thin_italic.ttf */; };
+		BFFAB4622A1F8846009282BA /* poppins_thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB4502A1F8845009282BA /* poppins_thin.ttf */; };
+		BFFAB4632A1F8846009282BA /* poppins_italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB4512A1F8845009282BA /* poppins_italic.ttf */; };
+		BFFAB4642A1F8846009282BA /* poppins_black_italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB4522A1F8845009282BA /* poppins_black_italic.ttf */; };
+		BFFAB4652A1F8846009282BA /* poppins_medium_italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB4532A1F8845009282BA /* poppins_medium_italic.ttf */; };
+		BFFAB4662A1F8846009282BA /* poppins_extralight_italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB4542A1F8846009282BA /* poppins_extralight_italic.ttf */; };
+		BFFAB4672A1F8846009282BA /* poppins_semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFAB4552A1F8846009282BA /* poppins_semibold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,34 +50,35 @@
 		00E356F21AD99517003FC87E /* DemibelCeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemibelCeterTests.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* DemibelCeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemibelCeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DemibelCeter/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DemibelCeter/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = DemibelCeter/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DemibelCeter/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DemibelCeter/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DemibelCeter/main.m; sourceTree = "<group>"; };
-		1D0AE47A65C8663E3B452821 /* Pods-DemibelCeter-DemibelCeterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemibelCeter-DemibelCeterTests.release.xcconfig"; path = "Target Support Files/Pods-DemibelCeter-DemibelCeterTests/Pods-DemibelCeter-DemibelCeterTests.release.xcconfig"; sourceTree = "<group>"; };
-		6423831EA8574132BED9D8CC /* libPods-DemibelCeter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemibelCeter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C97AB639B58BBB4B15BBE30 /* Pods-DemibelCeter-DemibelCeterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemibelCeter-DemibelCeterTests.debug.xcconfig"; path = "Target Support Files/Pods-DemibelCeter-DemibelCeterTests/Pods-DemibelCeter-DemibelCeterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-DemibelCeter-DemibelCeterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemibelCeter-DemibelCeterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-DemibelCeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemibelCeter.debug.xcconfig"; path = "Target Support Files/Pods-DemibelCeter/Pods-DemibelCeter.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-DemibelCeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemibelCeter.release.xcconfig"; path = "Target Support Files/Pods-DemibelCeter/Pods-DemibelCeter.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-DemibelCeter-DemibelCeterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemibelCeter-DemibelCeterTests.debug.xcconfig"; path = "Target Support Files/Pods-DemibelCeter-DemibelCeterTests/Pods-DemibelCeter-DemibelCeterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-DemibelCeter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemibelCeter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DemibelCeter/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ABFE59519B596E51CEFDCCC0 /* libPods-DemibelCeter-DemibelCeterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemibelCeter-DemibelCeterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF07D56C277A977A00A53B94 /* ProximaSoft-ExtraBoldIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaSoft-ExtraBoldIt.ttf"; sourceTree = "<group>"; };
-		BF07D56D277A977B00A53B94 /* ProximaSoft-LightIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaSoft-LightIt.ttf"; sourceTree = "<group>"; };
-		BF07D56E277A977B00A53B94 /* ProximaSoft-RegularIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaSoft-RegularIt.ttf"; sourceTree = "<group>"; };
-		BF07D56F277A977B00A53B94 /* ProximaSoft-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaSoft-Light.ttf"; sourceTree = "<group>"; };
-		BF07D570277A977B00A53B94 /* ProximaSoft-SemiBoldIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaSoft-SemiBoldIt.ttf"; sourceTree = "<group>"; };
-		BF07D571277A977B00A53B94 /* ProximaSoft-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaSoft-Thin.ttf"; sourceTree = "<group>"; };
-		BF07D572277A977B00A53B94 /* ProximaSoft-ThinIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaSoft-ThinIt.ttf"; sourceTree = "<group>"; };
-		BF07D573277A977B00A53B94 /* ProximaSoft-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaSoft-ExtraBold.ttf"; sourceTree = "<group>"; };
-		BF07D574277A977B00A53B94 /* ProximaSoft-BoldIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaSoft-BoldIt.ttf"; sourceTree = "<group>"; };
-		BF07D575277A977B00A53B94 /* ProximaSoft-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaSoft-Black.ttf"; sourceTree = "<group>"; };
-		BF07D576277A977B00A53B94 /* ProximaSoft-BlackIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaSoft-BlackIt.ttf"; sourceTree = "<group>"; };
-		BF07D577277A977B00A53B94 /* ProximaSoft-MediumIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaSoft-MediumIt.ttf"; sourceTree = "<group>"; };
-		BF469F6727788CA1007AA638 /* ProximaSoft-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaSoft-Regular.ttf"; sourceTree = "<group>"; };
-		BF469F692778923F007AA638 /* ProximaSoft-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaSoft-Bold.ttf"; sourceTree = "<group>"; };
-		BF469F6B27789354007AA638 /* ProximaSoft-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaSoft-Medium.ttf"; sourceTree = "<group>"; };
-		BF469F6D27789375007AA638 /* ProximaSoft-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaSoft-SemiBold.ttf"; sourceTree = "<group>"; };
-		BFA981692902C6380020A497 /* hermes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = hermes.xcframework; path = "Pods/hermes-engine/destroot/Library/Frameworks/universal/hermes.xcframework"; sourceTree = "<group>"; };
-		C0A881CF5CF3F2B244570E2A /* Pods-DemibelCeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemibelCeter.debug.xcconfig"; path = "Target Support Files/Pods-DemibelCeter/Pods-DemibelCeter.debug.xcconfig"; sourceTree = "<group>"; };
-		D00AAFFCFCFDA5787532823F /* Pods-DemibelCeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemibelCeter.release.xcconfig"; path = "Target Support Files/Pods-DemibelCeter/Pods-DemibelCeter.release.xcconfig"; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-DemibelCeter-DemibelCeterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemibelCeter-DemibelCeterTests.release.xcconfig"; path = "Target Support Files/Pods-DemibelCeter-DemibelCeterTests/Pods-DemibelCeter-DemibelCeterTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFFAB4442A1F8844009282BA /* poppins_light_italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_light_italic.ttf; sourceTree = "<group>"; };
+		BFFAB4452A1F8844009282BA /* poppins_semibold_italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_semibold_italic.ttf; sourceTree = "<group>"; };
+		BFFAB4462A1F8844009282BA /* poppins_black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_black.ttf; sourceTree = "<group>"; };
+		BFFAB4472A1F8844009282BA /* poppins_extralight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_extralight.ttf; sourceTree = "<group>"; };
+		BFFAB4482A1F8845009282BA /* poppins_extrabold_italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_extrabold_italic.ttf; sourceTree = "<group>"; };
+		BFFAB4492A1F8845009282BA /* poppins_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_bold.ttf; sourceTree = "<group>"; };
+		BFFAB44A2A1F8845009282BA /* poppins_bold_italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_bold_italic.ttf; sourceTree = "<group>"; };
+		BFFAB44B2A1F8845009282BA /* poppins_extrabold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_extrabold.ttf; sourceTree = "<group>"; };
+		BFFAB44C2A1F8845009282BA /* poppins_light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_light.ttf; sourceTree = "<group>"; };
+		BFFAB44D2A1F8845009282BA /* poppins_medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_medium.ttf; sourceTree = "<group>"; };
+		BFFAB44E2A1F8845009282BA /* poppins_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_regular.ttf; sourceTree = "<group>"; };
+		BFFAB44F2A1F8845009282BA /* poppins_thin_italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_thin_italic.ttf; sourceTree = "<group>"; };
+		BFFAB4502A1F8845009282BA /* poppins_thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_thin.ttf; sourceTree = "<group>"; };
+		BFFAB4512A1F8845009282BA /* poppins_italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_italic.ttf; sourceTree = "<group>"; };
+		BFFAB4522A1F8845009282BA /* poppins_black_italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_black_italic.ttf; sourceTree = "<group>"; };
+		BFFAB4532A1F8845009282BA /* poppins_medium_italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_medium_italic.ttf; sourceTree = "<group>"; };
+		BFFAB4542A1F8846009282BA /* poppins_extralight_italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_extralight_italic.ttf; sourceTree = "<group>"; };
+		BFFAB4552A1F8846009282BA /* poppins_semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = poppins_semibold.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -84,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF68E3733C33B6898317E18 /* libPods-DemibelCeter-DemibelCeterTests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-DemibelCeter-DemibelCeterTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6172F2D35A4C3AA820D92908 /* libPods-DemibelCeter.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-DemibelCeter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
@@ -132,10 +135,9 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BFA981692902C6380020A497 /* hermes.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6423831EA8574132BED9D8CC /* libPods-DemibelCeter.a */,
-				ABFE59519B596E51CEFDCCC0 /* libPods-DemibelCeter-DemibelCeterTests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-DemibelCeter.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-DemibelCeter-DemibelCeterTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -150,13 +152,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				BF469F6627788C6F007AA638 /* Fonts */,
+				BFFAB4232A1F8545009282BA /* Fonts */,
 				13B07FAE1A68108700A75B9A /* DemibelCeter */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* DemibelCeterTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				E233CBF5F47BEE60B243DCF8 /* Pods */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -172,38 +174,40 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF469F6627788C6F007AA638 /* Fonts */ = {
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BF07D575277A977B00A53B94 /* ProximaSoft-Black.ttf */,
-				BF07D576277A977B00A53B94 /* ProximaSoft-BlackIt.ttf */,
-				BF07D574277A977B00A53B94 /* ProximaSoft-BoldIt.ttf */,
-				BF07D573277A977B00A53B94 /* ProximaSoft-ExtraBold.ttf */,
-				BF07D56C277A977A00A53B94 /* ProximaSoft-ExtraBoldIt.ttf */,
-				BF07D56F277A977B00A53B94 /* ProximaSoft-Light.ttf */,
-				BF07D56D277A977B00A53B94 /* ProximaSoft-LightIt.ttf */,
-				BF07D577277A977B00A53B94 /* ProximaSoft-MediumIt.ttf */,
-				BF07D56E277A977B00A53B94 /* ProximaSoft-RegularIt.ttf */,
-				BF07D570277A977B00A53B94 /* ProximaSoft-SemiBoldIt.ttf */,
-				BF07D571277A977B00A53B94 /* ProximaSoft-Thin.ttf */,
-				BF07D572277A977B00A53B94 /* ProximaSoft-ThinIt.ttf */,
-				BF469F6D27789375007AA638 /* ProximaSoft-SemiBold.ttf */,
-				BF469F6B27789354007AA638 /* ProximaSoft-Medium.ttf */,
-				BF469F692778923F007AA638 /* ProximaSoft-Bold.ttf */,
-				BF469F6727788CA1007AA638 /* ProximaSoft-Regular.ttf */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
-		E233CBF5F47BEE60B243DCF8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C0A881CF5CF3F2B244570E2A /* Pods-DemibelCeter.debug.xcconfig */,
-				D00AAFFCFCFDA5787532823F /* Pods-DemibelCeter.release.xcconfig */,
-				6C97AB639B58BBB4B15BBE30 /* Pods-DemibelCeter-DemibelCeterTests.debug.xcconfig */,
-				1D0AE47A65C8663E3B452821 /* Pods-DemibelCeter-DemibelCeterTests.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-DemibelCeter.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-DemibelCeter.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-DemibelCeter-DemibelCeterTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-DemibelCeter-DemibelCeterTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BFFAB4232A1F8545009282BA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BFFAB4522A1F8845009282BA /* poppins_black_italic.ttf */,
+				BFFAB4462A1F8844009282BA /* poppins_black.ttf */,
+				BFFAB44A2A1F8845009282BA /* poppins_bold_italic.ttf */,
+				BFFAB4492A1F8845009282BA /* poppins_bold.ttf */,
+				BFFAB4482A1F8845009282BA /* poppins_extrabold_italic.ttf */,
+				BFFAB44B2A1F8845009282BA /* poppins_extrabold.ttf */,
+				BFFAB4542A1F8846009282BA /* poppins_extralight_italic.ttf */,
+				BFFAB4472A1F8844009282BA /* poppins_extralight.ttf */,
+				BFFAB4512A1F8845009282BA /* poppins_italic.ttf */,
+				BFFAB4442A1F8844009282BA /* poppins_light_italic.ttf */,
+				BFFAB44C2A1F8845009282BA /* poppins_light.ttf */,
+				BFFAB4532A1F8845009282BA /* poppins_medium_italic.ttf */,
+				BFFAB44D2A1F8845009282BA /* poppins_medium.ttf */,
+				BFFAB44E2A1F8845009282BA /* poppins_regular.ttf */,
+				BFFAB4452A1F8844009282BA /* poppins_semibold_italic.ttf */,
+				BFFAB4552A1F8846009282BA /* poppins_semibold.ttf */,
+				BFFAB44F2A1F8845009282BA /* poppins_thin_italic.ttf */,
+				BFFAB4502A1F8845009282BA /* poppins_thin.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,12 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DemibelCeterTests" */;
 			buildPhases = (
-				A130D646172E58E1D159D8F2 /* [CP] Check Pods Manifest.lock */,
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				077E01280D4B4AD18B2E1770 /* [CP] Embed Pods Frameworks */,
-				4E62BDF20514810D028A5FBF /* [CP] Copy Pods Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,14 +238,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DemibelCeter" */;
 			buildPhases = (
-				3E482C27206C4DEF2FE45063 /* [CP] Check Pods Manifest.lock */,
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				C8AC78B0264D0F9F6F6D630E /* [CP] Embed Pods Frameworks */,
-				ADC9DDC32298B72B3CF5DC8E /* [CP] Copy Pods Resources */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -300,24 +304,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF469F6E27789375007AA638 /* ProximaSoft-SemiBold.ttf in Resources */,
-				BF07D579277A977B00A53B94 /* ProximaSoft-LightIt.ttf in Resources */,
-				BF07D57C277A977B00A53B94 /* ProximaSoft-SemiBoldIt.ttf in Resources */,
+				BFFAB4662A1F8846009282BA /* poppins_extralight_italic.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				BFFAB4562A1F8846009282BA /* poppins_light_italic.ttf in Resources */,
+				BFFAB4642A1F8846009282BA /* poppins_black_italic.ttf in Resources */,
+				BFFAB45D2A1F8846009282BA /* poppins_extrabold.ttf in Resources */,
+				BFFAB45F2A1F8846009282BA /* poppins_medium.ttf in Resources */,
+				BFFAB45C2A1F8846009282BA /* poppins_bold_italic.ttf in Resources */,
+				BFFAB4672A1F8846009282BA /* poppins_semibold.ttf in Resources */,
+				BFFAB4592A1F8846009282BA /* poppins_extralight.ttf in Resources */,
+				BFFAB4582A1F8846009282BA /* poppins_black.ttf in Resources */,
+				BFFAB4612A1F8846009282BA /* poppins_thin_italic.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				BF469F6A2778923F007AA638 /* ProximaSoft-Bold.ttf in Resources */,
-				BF07D578277A977B00A53B94 /* ProximaSoft-ExtraBoldIt.ttf in Resources */,
-				BF07D581277A977B00A53B94 /* ProximaSoft-Black.ttf in Resources */,
-				BF07D57E277A977B00A53B94 /* ProximaSoft-ThinIt.ttf in Resources */,
-				BF07D57A277A977B00A53B94 /* ProximaSoft-RegularIt.ttf in Resources */,
-				BF07D57D277A977B00A53B94 /* ProximaSoft-Thin.ttf in Resources */,
-				BF07D583277A977B00A53B94 /* ProximaSoft-MediumIt.ttf in Resources */,
-				BF07D580277A977B00A53B94 /* ProximaSoft-BoldIt.ttf in Resources */,
-				BF07D582277A977B00A53B94 /* ProximaSoft-BlackIt.ttf in Resources */,
-				BF469F6827788CA1007AA638 /* ProximaSoft-Regular.ttf in Resources */,
-				BF07D57F277A977B00A53B94 /* ProximaSoft-ExtraBold.ttf in Resources */,
-				BF07D57B277A977B00A53B94 /* ProximaSoft-Light.ttf in Resources */,
-				BF469F6C27789354007AA638 /* ProximaSoft-Medium.ttf in Resources */,
+				BFFAB45B2A1F8846009282BA /* poppins_bold.ttf in Resources */,
+				BFFAB4622A1F8846009282BA /* poppins_thin.ttf in Resources */,
+				BFFAB45E2A1F8846009282BA /* poppins_light.ttf in Resources */,
+				BFFAB4632A1F8846009282BA /* poppins_italic.ttf in Resources */,
+				BFFAB4602A1F8846009282BA /* poppins_regular.ttf in Resources */,
+				BFFAB4572A1F8846009282BA /* poppins_semibold_italic.ttf in Resources */,
+				BFFAB45A2A1F8846009282BA /* poppins_extrabold_italic.ttf in Resources */,
+				BFFAB4652A1F8846009282BA /* poppins_medium_italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,71 +336,34 @@
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
 			);
 			name = "Bundle React Native code and images";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		077E01280D4B4AD18B2E1770 /* [CP] Embed Pods Frameworks */ = {
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter-DemibelCeterTests/Pods-DemibelCeter-DemibelCeterTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter/Pods-DemibelCeter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter-DemibelCeterTests/Pods-DemibelCeter-DemibelCeterTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter/Pods-DemibelCeter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter-DemibelCeterTests/Pods-DemibelCeter-DemibelCeterTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter/Pods-DemibelCeter-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3E482C27206C4DEF2FE45063 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DemibelCeter-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4E62BDF20514810D028A5FBF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter-DemibelCeterTests/Pods-DemibelCeter-DemibelCeterTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter-DemibelCeterTests/Pods-DemibelCeter-DemibelCeterTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter-DemibelCeterTests/Pods-DemibelCeter-DemibelCeterTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A130D646172E58E1D159D8F2 /* [CP] Check Pods Manifest.lock */ = {
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -416,7 +385,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ADC9DDC32298B72B3CF5DC8E /* [CP] Copy Pods Resources */ = {
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemibelCeter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter-DemibelCeterTests/Pods-DemibelCeter-DemibelCeterTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter-DemibelCeterTests/Pods-DemibelCeter-DemibelCeterTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter-DemibelCeterTests/Pods-DemibelCeter-DemibelCeterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -433,21 +441,21 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter/Pods-DemibelCeter-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C8AC78B0264D0F9F6F6D630E /* [CP] Embed Pods Frameworks */ = {
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter/Pods-DemibelCeter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter-DemibelCeterTests/Pods-DemibelCeter-DemibelCeterTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter/Pods-DemibelCeter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter-DemibelCeterTests/Pods-DemibelCeter-DemibelCeterTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter/Pods-DemibelCeter-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemibelCeter-DemibelCeterTests/Pods-DemibelCeter-DemibelCeterTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -484,7 +492,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,7 +510,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C97AB639B58BBB4B15BBE30 /* Pods-DemibelCeter-DemibelCeterTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-DemibelCeter-DemibelCeterTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -510,7 +518,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = DemibelCeterTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -529,12 +537,12 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D0AE47A65C8663E3B452821 /* Pods-DemibelCeter-DemibelCeterTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-DemibelCeter-DemibelCeterTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = DemibelCeterTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -553,7 +561,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0A881CF5CF3F2B244570E2A /* Pods-DemibelCeter.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-DemibelCeter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -564,13 +572,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.seasheepjoe.demibelceter;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = DemibelCeter;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -580,7 +588,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D00AAFFCFCFDA5787532823F /* Pods-DemibelCeter.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-DemibelCeter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -590,13 +598,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.seasheepjoe.demibelceter;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = DemibelCeter;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -652,7 +660,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -664,6 +672,12 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
@@ -711,7 +725,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -722,6 +736,12 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

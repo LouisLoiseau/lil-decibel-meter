@@ -21,7 +21,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -37,40 +37,42 @@
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Allow DemibelCeter to access your microphone in order to show decibels output.</string>
-	<key>UIAppFonts</key>
-	<array>
-		<string>ProximaSoft-Regular.ttf</string>
-		<string>ProximaSoft-RegularIt.ttf</string>
-		<string>ProximaSoft-Bold.ttf</string>
-		<string>ProximaSoft-BoldIt.ttf</string>
-		<string>ProximaSoft-Medium.ttf</string>
-		<string>ProximaSoft-MediumIt.ttf</string>
-		<string>ProximaSoft-SemiBold.ttf</string>
-		<string>ProximaSoft-SemiBoldIt.ttf</string>
-		<string>ProximaSoft-ExtraBold.ttf</string>
-		<string>ProximaSoft-ExtraBoldIt.ttf</string>
-		<string>ProximaSoft-Black.ttf</string>
-		<string>ProximaSoft-BlackIt.ttf</string>
-		<string>ProximaSoft-Light.ttf</string>
-		<string>ProximaSoft-LightIt.ttf</string>
-		<string>ProximaSoft-Thin.ttf</string>
-		<string>ProximaSoft-ThinIt.ttf</string>
-	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
 	</array>
-	<key>UIStatusBarStyle</key>
-	<string>UIStatusBarStyleLightContent</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>poppins_light.ttf</string>
+		<string>poppins_light_italic.ttf</string>
+		<string>poppins_black_italic.ttf</string>
+		<string>poppins_black.ttf</string>
+		<string>poppins_extrabold_italic.ttf</string>
+		<string>poppins_extrabold.ttf</string>
+		<string>poppins_bold_italic.ttf</string>
+		<string>poppins_bold.ttf</string>
+		<string>poppins_semibold_italic.ttf</string>
+		<string>poppins_semibold.ttf</string>
+		<string>poppins_medium_italic.ttf</string>
+		<string>poppins_medium.ttf</string>
+		<string>poppins_italic.ttf</string>
+		<string>poppins_regular.ttf</string>
+		<string>poppins_extralight_italic.ttf</string>
+		<string>poppins_extralight.ttf</string>
+		<string>poppins_thin_italic.ttf</string>
+		<string>poppins_thin.ttf</string>
+	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>DemibelCeter a besoin d'accéder au microphone afin de mesurer les décibels.</string>
 </dict>
 </plist>
