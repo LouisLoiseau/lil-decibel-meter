@@ -11,8 +11,8 @@ export default function GaugeItem({ color }: Props) {
       style={{
         backgroundColor: color,
         width: '100%',
-        height: '10%',
-        borderRadius: 7,
+        height: '5%',
+        borderRadius: 5,
         borderWidth: 2,
       }}
     />

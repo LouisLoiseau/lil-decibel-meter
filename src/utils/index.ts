@@ -1,7 +1,7 @@
 export function generateColorGradient(): Array<string> {
   let colorArray = [];
   let n = 100;
-  let chunk = 10;
+  let chunk = 5;
   for (let i = 0; i < n; i++) {
     if (i % chunk === 0) {
       let red = (255 * i) / 100;
@@ -14,9 +14,9 @@ export function generateColorGradient(): Array<string> {
 }
 
 export function getDegrees(
-  step: number = 10,
+  step: number = 5,
   min: number = 0,
-  max: number = 120,
+  max: number = 100,
 ): Array<number> {
   let decibels = [];
   for (let i = min; i <= max; i += step) {

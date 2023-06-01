@@ -3,7 +3,7 @@ import { Dimensions, StyleSheet } from 'react-native';
 const { width, height } = Dimensions.get('window');
 export default StyleSheet.create({
   safeView: {
-    backgroundColor: '#E6E6FA',
+    backgroundColor: '#171717',
     width,
     height,
   },
@@ -11,7 +11,6 @@ export default StyleSheet.create({
   main: {
     width: '100%',
     height: '100%',
-    paddingHorizontal: width * 0.1,
   },
 
   gaugeContainer: {
@@ -20,7 +19,7 @@ export default StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 50,
+    marginTop: 100,
   },
 
   gauge: {
@@ -33,54 +32,11 @@ export default StyleSheet.create({
     transform: [{ rotate: '180deg' }],
   },
 
-  modalContainer: {
-    borderWidth: 1,
-    borderColor: '#000',
-    backgroundColor: '#171717',
-  },
-
-  modalContent: {
-    backgroundColor: '#171717',
-    width: '100%',
-    height: '100%',
-    paddingHorizontal: 30,
-    paddingVertical: 15,
-  },
-
-  modalTitle: {
-    textAlign: 'center',
-    fontSize: 34,
-  },
-
-  modalQuestion: {
-    marginTop: 12,
-    fontSize: 16,
-  },
-
-  modalRecordText: {
-    color: 'crimson',
-  },
-
-  modalDecibelText: {
-    color: 'limegreen',
-  },
-
-  modalDisclaimer: {
-    fontSize: 11,
-    marginTop: 10,
-    textDecorationLine: 'underline',
-  },
-
-  centeredView: {
-    width: '100%',
-    height: '100%',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-
   appTitle: {
     fontSize: 44,
     textAlign: 'center',
+    fontFamily: 'poppins',
+    fontWeight: 'bold',
   },
 
   gaugeDescription: {
@@ -112,6 +68,8 @@ export default StyleSheet.create({
 
   decibelsText: {
     color: '#fff',
+    fontFamily: 'poppins',
+    fontWeight: '900',
   },
 
   container: {
