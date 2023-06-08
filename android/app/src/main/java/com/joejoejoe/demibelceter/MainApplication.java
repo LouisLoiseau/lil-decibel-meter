@@ -1,4 +1,4 @@
-package com.demibelceter;
+package com.joejoejoe.demibelceter;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

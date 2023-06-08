@@ -1,4 +1,4 @@
-package com.demibelceter;
+package com.joejoejoe.demibelceter;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
