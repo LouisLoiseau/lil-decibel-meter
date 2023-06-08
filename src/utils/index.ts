@@ -19,7 +19,7 @@ export function getDegrees(
   max: number = 100,
 ): Array<number> {
   let decibels = [];
-  for (let i = min; i <= max; i += step) {
+  for (let i = min; i < max; i += step) {
     decibels.push(i);
   }
   return decibels;

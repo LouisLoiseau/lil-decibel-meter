@@ -1,5 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { SafeAreaView, StatusBar, View } from 'react-native';
+import {
+  PermissionsAndroid,
+  Platform,
+  SafeAreaView,
+  StatusBar,
+  View,
+} from 'react-native';
 import AudioRecorderPlayer, {
   AudioSourceAndroidType,
 } from 'react-native-audio-recorder-player';
@@ -13,9 +19,36 @@ const colors = generateColorGradient();
 const audioRecorderPlayer = new AudioRecorderPlayer();
 
 export default function Home() {
+  const [error, setError] = useState<string | null>(null);
   const [decibels, setDecibels] = useState<string>('');
   const [gaugeItems, setGaugeItems] = useState<Array<number>>([]);
-  useEffect(() => {
+  const checkPermissions = async () => {
+    let granted: boolean = true;
+    if (Platform.OS === 'android') {
+      try {
+        const grants = await PermissionsAndroid.requestMultiple([
+          PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE,
+          PermissionsAndroid.PERMISSIONS.RECORD_AUDIO,
+        ]);
+        if (
+          !grants['android.permission.RECORD_AUDIO'] ||
+          !grants['android.permission.WRITE_EXTERNAL_STORAGE']
+        ) {
+          granted = false;
+        }
+      } catch (err) {
+        granted = false;
+      }
+    }
+
+    return granted;
+  };
+  const record = async () => {
+    const granted = await checkPermissions();
+    if (!granted) {
+      setError('Please grant all permissions.');
+      return;
+    }
     audioRecorderPlayer
       .startRecorder(
         undefined,
@@ -46,7 +79,12 @@ export default function Home() {
         setGaugeItems(items);
       }
     });
-    return () => audioRecorderPlayer.removeRecordBackListener();
+  };
+  useEffect(() => {
+    record();
+    return () => {
+      audioRecorderPlayer.removeRecordBackListener();
+    };
   }, []);
   return (
     <SafeAreaView style={styles.safeView} key={'safe-area'}>
@@ -61,7 +99,7 @@ export default function Home() {
           </View>
           <View style={styles.gauge}>
             {gaugeItems.map((_, index) => (
-              <GaugeItem color={colors[index]} />
+              <GaugeItem color={colors[index]} key={index} />
             ))}
           </View>
           <View style={styles.scaleContainer}>
@@ -72,6 +110,7 @@ export default function Home() {
             <Text style={styles.scaleText}>{degrees[0]}</Text>
           </View>
         </View>
+        <Text style={styles.errorText}>{error}</Text>
       </View>
     </SafeAreaView>
   );

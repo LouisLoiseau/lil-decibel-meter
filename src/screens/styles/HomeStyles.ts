@@ -75,4 +75,9 @@ export default StyleSheet.create({
   container: {
     width: '100%',
   },
+
+  errorText: {
+    color: 'red',
+    fontWeight: '600',
+  },
 });
