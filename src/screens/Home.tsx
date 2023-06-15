@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import {
   PermissionsAndroid,
   Platform,
@@ -28,11 +28,13 @@ export default function Home() {
       try {
         const grants = await PermissionsAndroid.requestMultiple([
           PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE,
+          PermissionsAndroid.PERMISSIONS.READ_EXTERNAL_STORAGE,
           PermissionsAndroid.PERMISSIONS.RECORD_AUDIO,
         ]);
         if (
           !grants['android.permission.RECORD_AUDIO'] ||
-          !grants['android.permission.WRITE_EXTERNAL_STORAGE']
+          !grants['android.permission.WRITE_EXTERNAL_STORAGE'] ||
+          !grants['android.permission.READ_EXTERNAL_STORAGE']
         ) {
           granted = false;
         }
@@ -43,7 +45,7 @@ export default function Home() {
 
     return granted;
   };
-  const record = async () => {
+  const record = useCallback(async () => {
     const granted = await checkPermissions();
     if (!granted) {
       setError('Please grant all permissions.');
@@ -53,12 +55,12 @@ export default function Home() {
       .startRecorder(
         undefined,
         {
-          AudioSourceAndroid: AudioSourceAndroidType.CAMCORDER,
+          AudioSourceAndroid: AudioSourceAndroidType.MIC,
         },
         true,
       )
-      .catch(err => {
-        console.log(err);
+      .catch(_err => {
+        setError('An error occurred with the recorder.');
       });
     audioRecorderPlayer.setSubscriptionDuration(0.3);
     audioRecorderPlayer.addRecordBackListener(ev => {
@@ -79,13 +81,13 @@ export default function Home() {
         setGaugeItems(items);
       }
     });
-  };
+  }, []);
   useEffect(() => {
     record();
     return () => {
       audioRecorderPlayer.removeRecordBackListener();
     };
-  }, []);
+  }, [record]);
   return (
     <SafeAreaView style={styles.safeView} key={'safe-area'}>
       <StatusBar barStyle={'light-content'} />

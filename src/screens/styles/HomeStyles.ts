@@ -37,6 +37,7 @@ export default StyleSheet.create({
     textAlign: 'center',
     fontFamily: 'poppins',
     fontWeight: 'bold',
+    marginTop: 10,
   },
 
   gaugeDescription: {
@@ -79,5 +80,7 @@ export default StyleSheet.create({
   errorText: {
     color: 'red',
     fontWeight: '600',
+    alignSelf: 'center',
+    marginTop: 20,
   },
 });
